@@ -7,4 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello Step
-        run: echo "Hello, World!"
+        run: |
+          echo "Hello, World!"
+          echo "trynna learn ci/cd"
